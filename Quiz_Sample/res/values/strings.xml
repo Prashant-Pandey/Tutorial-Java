@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz_Sample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_first">First</string>
+    <string name="title_activity_question1">Question1</string>
+    <string name="title_activity_question2">Question2</string>
+    <string name="title_activity_question3">Question3</string>
+    <string name="title_activity_question4">Question4</string>
+    <string name="title_activity_question5">Question5</string>
+    <string name="title_activity_result">Result</string>
+
+</resources>

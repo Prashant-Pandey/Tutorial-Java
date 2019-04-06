@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NavigationDrawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_eventt">Eventt</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_staions">Staions</string>
+    <string name="title_activity_fragment_four">FragmentFour</string>
+    <string name="title_activity_fragment_five">FragmentFive</string>
+    <string name="title_activity_progress_bar">ProgressBar</string>
+
+</resources>

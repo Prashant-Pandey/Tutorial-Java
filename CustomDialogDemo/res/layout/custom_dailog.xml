@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="30dp"
+    android:background="@drawable/leftopborder"
+    android:padding="2dp"
+    android:orientation="vertical"
+    tools:ignore="DuplicateIds,HardcodedText,ContentDescription,SpUsage,UselessLeaf" >
+  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical"
+          android:padding="10dp"
+           android:background="#ffffff"
+        android:weightSum="1">
+        
+  
+          
+   
+    <TextView
+        android:id="@+id/textView_text1"
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+         android:text="Your data uploaded successfully saved.We will contact you soon"
+        android:gravity="center"
+         android:padding="6dp"
+        android:textSize="12dp"
+        android:textColor="#0000ff"
+        android:textStyle="normal" />
+    
+
+  
+        <TextView
+        android:id="@+id/textView_ok"
+        android:layout_width="100dp"
+       android:layout_height="wrap_content"
+         android:text="Done"
+         android:layout_margin="8dp"
+         android:padding="6dp"
+         android:layout_gravity="center_horizontal"
+        
+        android:gravity="center"
+        android:textSize="12dp"
+      
+        android:textStyle="normal" />
+     
+ </LinearLayout>
+</LinearLayout>

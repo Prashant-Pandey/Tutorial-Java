@@ -1,0 +1,71 @@
+package com.example.navigationdrawer;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.ContextMenu;
+import android.view.LayoutInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ContextMenu.ContextMenuInfo;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.TextView;
+import android.widget.Toast;
+ 
+public class FragmentOne extends Fragment{
+ 
+    public static Fragment newInstance(Context context) {
+    	FragmentOne f = new FragmentOne();
+        return f;
+    }
+    static EditText ed1,ed2;
+ 
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_one, null);
+           ImageButton ok=(ImageButton)root.findViewById(R.id.imageButton1);
+           ImageButton ok2=(ImageButton)root.findViewById(R.id.imageButton2);
+           ImageButton ok3=(ImageButton)root.findViewById(R.id.imageButton3);
+           ImageButton ok4=(ImageButton)root.findViewById(R.id.imageButton4);
+           ImageButton ok5=(ImageButton)root.findViewById(R.id.imageButton5);
+           Button bt=(Button)root.findViewById(R.id.button1);
+           Button bt2=(Button)root.findViewById(R.id.button2);
+           ed1=(EditText)root.findViewById(R.id.ed1);
+           ed2=(EditText)root.findViewById(R.id.ed2);
+           TextView tv1=(TextView)root.findViewById(R.id.textView1);
+           TextView tv3=(TextView)root.findViewById(R.id.textView3);
+           TextView tv4=(TextView)root.findViewById(R.id.textView4);
+           TextView tv5=(TextView)root.findViewById(R.id.textView5);    
+       
+        ok.setOnClickListener(new View.OnClickListener() {
+	
+	@Override
+	public void onClick(View arg0) {
+		// TODO Auto-generated method stub
+		Intent i= new Intent( getActivity().getApplication(), Staions.class);
+		String s = ed1.getText().toString();
+		i.putExtra("d", s);
+    	startActivity(i);
+		
+	}
+});
+ok2.setOnClickListener(new View.OnClickListener() {
+	
+	@Override
+	public void onClick(View arg0) {
+		// TODO Auto-generated method stub
+		Intent i= new Intent( getActivity().getApplication(), Staions.class);
+		String s = ed1.getText().toString();
+		i.putExtra("d", s);
+    	startActivity(i);
+		
+	}
+});
+return root;
+    }
+}

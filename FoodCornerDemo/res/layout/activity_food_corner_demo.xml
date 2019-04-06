@@ -1,0 +1,227 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodCornerDemo" >
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="17dp"
+        android:text="Pizza" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox4"
+        android:text="Choomin" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox1"
+        android:text="Burger" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox2"
+        android:text="Veg. Sandwich" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox3"
+        android:text="Gril. Sandwich" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox5"
+        android:text="Fried Rice" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox6"
+        android:text="Manchurian" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox7"
+        android:text="French Fries" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox2"
+        android:layout_alignBottom="@+id/checkBox2"
+        android:layout_alignRight="@+id/textView2"
+        android:text="60 Rs"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox5"
+        android:layout_alignBottom="@+id/checkBox5"
+        android:layout_alignLeft="@+id/textView5"
+        android:text="40 Rs"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox6"
+        android:layout_alignBottom="@+id/checkBox6"
+        android:layout_alignRight="@+id/textView6"
+        android:text="50 Rs"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox7"
+        android:layout_alignBottom="@+id/checkBox7"
+        android:layout_alignLeft="@+id/textView7"
+        android:text="35 Rs"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox8"
+        android:layout_alignBottom="@+id/checkBox8"
+        android:layout_alignRight="@+id/textView8"
+        android:text=" 25 Rs"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox1"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/checkBox3"
+        android:text="120 Rs"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox3"
+        android:layout_alignBottom="@+id/checkBox3"
+        android:layout_alignLeft="@+id/textView3"
+        android:text="60 Rs"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox4"
+        android:layout_alignBottom="@+id/checkBox4"
+        android:layout_alignLeft="@+id/textView6"
+        android:text="50 Rs"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/spinner4"
+        android:layout_alignTop="@+id/checkBox1" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_below="@+id/checkBox1" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_below="@+id/textView3" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/spinner5"
+        android:layout_below="@+id/checkBox5" />
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/checkBox6"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/checkBox7"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/checkBox3"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/checkBox1"
+        android:text="Food Corner Menu"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Generate Bill" />
+
+</RelativeLayout>

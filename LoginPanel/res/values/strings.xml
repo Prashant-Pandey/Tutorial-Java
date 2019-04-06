@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JaipurMetro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_jaipur_metro">JaipurMetro</string>
+    <string name="title_activity_stations">Stations</string>
+    <string name="title_activity_metro_ticket">MetroTicket</string>
+    <string name="title_activity_stations1">Stations1</string>
+    <string name="title_activity_jaipur__metro__map">Jaipur_Metro_Map</string>
+    <string name="title_activity_send__ticket">Send_Ticket</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jaipurmetro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.jaipurmetro.LoginPanel"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jaipurmetro.JaipurMetro"
+            android:label="@string/title_activity_jaipur_metro" >
+        </activity>
+        <activity
+            android:name="com.example.jaipurmetro.Stations"
+            android:label="@string/title_activity_stations" >
+        </activity>
+        <activity
+            android:name="com.example.jaipurmetro.MetroTicket"
+            android:label="@string/title_activity_metro_ticket" >
+        </activity>
+        <activity
+            android:name="com.example.jaipurmetro.Stations1"
+            android:label="@string/title_activity_stations1" >
+        </activity>
+        <activity
+            android:name="com.example.jaipurmetro.Jaipur_Metro_Map"
+            android:label="@string/title_activity_jaipur__metro__map" >
+        </activity>
+        <activity
+            android:name="com.example.jaipurmetro.Send_Ticket"
+            android:label="@string/title_activity_send__ticket" >
+        </activity>
+    </application>
+
+</manifest>

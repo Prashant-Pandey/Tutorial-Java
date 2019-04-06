@@ -1,0 +1,50 @@
+package com.example.seek_demo;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.SeekBar;
+import android.widget.Toast;
+import android.widget.SeekBar.OnSeekBarChangeListener;
+
+public class SeekBarDemo extends Activity {
+	SeekBar sb;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_seek_bar_demo);
+		sb= (SeekBar)findViewById(R.id.seekBar1);
+		sb.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
+			
+			@Override
+			public void onStopTrackingTouch(SeekBar arg0) {
+				// TODO Auto-generated method stub
+				Toast.makeText(SeekBarDemo.this, ""+"Stop", 111).show();
+				
+			}
+			
+			@Override
+			public void onStartTrackingTouch(SeekBar arg0) {
+				// TODO Auto-generated method stub
+				Toast.makeText(SeekBarDemo.this, ""+"Sart", 111).show();
+			}
+			
+			@Override
+			public void onProgressChanged(SeekBar arg0, int arg1, boolean arg2) {
+				// TODO Auto-generated method stub
+				Toast.makeText(SeekBarDemo.this, ""+seekbar, 111).show();
+				Toast.makeText(SeekBarDemo.this, ""+progress, 111).show();
+				
+			}
+		});
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_seek_bar_demo, menu);
+		return true;
+	}
+
+}

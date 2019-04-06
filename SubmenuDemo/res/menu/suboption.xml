@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+     android:id="@+id/menu1"
+     android:title="Menu1"
+      android:icon="@drawable/ic_launcher">
+     <menu >
+     <item
+     android:id="@+id/menu11"
+     android:title="Menu1a"
+      android:icon="@drawable/ic_launcher">
+      </item>
+     <item
+     android:id="@+id/menu12"
+     android:title="Menu1b"
+      android:icon="@drawable/ic_launcher">
+      </item>
+     </menu>
+     </item>   
+ 
+ <item
+     android:id="@+id/menu2"
+     android:title="Menu2" 
+      android:icon="@drawable/ic_launcher">
+     <menu >
+     <item
+     android:id="@+id/menu21"
+     android:title="Menu2a"
+      android:icon="@drawable/ic_launcher">
+      </item>
+     <item
+     android:id="@+id/menu22"
+     android:title="Menu2b"
+      android:icon="@drawable/ic_launcher">
+      </item>
+     </menu>
+     </item>
+</menu>
